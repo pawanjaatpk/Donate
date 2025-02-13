@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/logo.svg" type="image/x-icon" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <title>Techify Bots</title>
+    <title>Expert Bots</title>
     <style>
         /* Add styles for the loading spinner */
         .spinner {
@@ -45,7 +45,7 @@
             <div class="payment-info">
                 <p id="qr-text">Scan the QR code or use the UPI ID:</p>
                 <div class="upi-id-content">
-                    <strong id="payment-id">TechifyBots@UPI</strong>
+                    <strong id="payment-id">scantaste@axl</strong>
                     <button id="payment-button" class="copy-button">Copy</button>
                     <lottie-player 
                         id="upi-animation"
@@ -108,7 +108,7 @@
                 };
 
                 qrImage.src = "assets/qr-code.png"; // Replace with your UPI QR code image
-                paymentId.textContent = "TechifyBots@UPI"; // Replace with your UPI ID
+                paymentId.textContent = "scantaste@axl"; // Replace with your UPI ID
                 paymentButton.textContent = "Copy";
                 paymentButton.removeEventListener("click", openPayPalLink);
                 paymentButton.addEventListener("click", copyUpiId);
