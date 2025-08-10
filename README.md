@@ -78,4 +78,4 @@ To make it easier for friends, clients, and supporters to receive payments — n
 
 - [TechifyBots](https://github.com/TechifyBots)
 
-- [Dypixx](https://github.com/Dypixx)
+- [Deep](https://github.com/Werdevelopers)
